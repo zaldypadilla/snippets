@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Snippets</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+
+    
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top em-text">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Snippets</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="git.html">Git</a></li>
+            <li><a href="photoshop.html">Photoshop</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+   <section id="shorcuts">
+   <div class="container">
+     <div class="row">
+      <h3>GIT snippets</h3>
+      <div class="col-md-4">
+         
+         <ol>
+           <li class="box">Git Configuration</li>
+              <ul class="border-box">
+                <li><i class="glyphicon glyphicon-pencil icon-color"></i>git --global user.name 'yourusername'</li>
+                <li><i class="glyphicon glyphicon-pencil icon-color"></i>git --global user.password 'yourpassword'</li>
+                <li><i class="glyphicon glyphicon-pencil icon-color"></i>git --global --list</li>
+              </ul>
+        </div> 
+        <div class="col-md-4">
+           <li class="box">GEt SSH key</li>
+              <ul class="border-box">
+                <li><i class="glyphicon glyphicon-ok icon-color"></i>Create Repository</li>
+                <li><i class="glyphicon glyphicon-ok icon-color"></i>Unzip yor local repository</li>
+                <li><i class="glyphicon glyphicon-ok icon-color"></i>git init (Your repository name)</li>
+                <li><i class="glyphicon glyphicon-ok icon-color"></i>Open your Initialize repository name</li>
+                <li><i class="glyphicon glyphicon-ok icon-color"></i>git remote add   <span class="spacing">git@github.com:yourusername/file.git</span></li>
+                <li><i class="glyphicon glyphicon-ok icon-color"></i>cd ~/.ssh</li>
+                <li><i class="glyphicon glyphicon-ok icon-color"></i>ssh-keygen -t rsa 'youremail.com'</li>
+                <li><i class="glyphicon glyphicon-ok icon-color"></i>git-rsa</li>
+                <li><i class="glyphicon glyphicon-ok icon-color"></i>clip < ~/.ssh/id_rsa.pub</li>
+                <li><i class="glyphicon glyphicon-ok icon-color"></i>Paste the ssh key to your github account</li>
+                <li><i class="glyphicon glyphicon-ok icon-color"></i>ssh -T git@github.com</li>
+              </ul>
+            </div>  
+            <div class="col-md-4">
+            <li class="box">Basic GIT commands</li>
+                <ul class="border-box">
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>mkdir (make directory)</li>
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>pwd (location of the directory)</li>
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>ls (list of files/folders of directory</li>
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>cd filename.html/folders (open a file/folder)</li>
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>cd .. (back)</li>
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>unzip ~/Desktop/filename.zip</li>
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>mv ~/Desktop/filename.jpg (add files)</li>
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>mv ~/Desktop/folder ./</li>
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>ls -al (check all files including .git ignore)</li>
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>rm -rf (delete filename/folders)</li>
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>git clone + url (copy the url in the repository)</li>
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>git status(check the status</li>
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>git add + filename.html or git .(means all)</li>
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>git commit -m  (ex git commit 'Initial commit')</li>
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>git push origin master</li>
+                  <li><i class="glyphicon glyphicon-ok icon icon-color"></i>git pull ( temporary for approval)</li>
+                </ul>
+            </div> 
+         </ol>
+        </div>
+      </div>
+   </div>
+     
+   </section>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+  </body>
+</html>
