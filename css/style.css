@@ -38,7 +38,8 @@ body {
  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover{
 	background-color: #fff  !important;
 	color: #2c3e50 !important;
-	width: 90px;
+	width: 120px;
+	text-align: center;
 
 }
 
@@ -96,5 +97,13 @@ section#shorcuts .border-box{
 
 	padding-left:23px;
 }
- 	
+
+
+section#shorcuts .border-box-p{
+	background-color: #fff;
+	padding:20px 10px 20px 10px;
+	height:550px;
+	font-size: 1.0em;
+	font-family: 'Raleway', sans-serif;
+	font-variant: 1.2em;
 
